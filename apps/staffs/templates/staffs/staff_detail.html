@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+
+{% block content-header %}
+<div class="card-header">
+  <div class="card-tools">
+    <a href="#" class="btn btn-tool">Print</a>
+    <a href="{% url 'staff-update' object.id %}" class="btn btn-tool">
+      <i class="fas fa-edit"></i>
+    </a>
+    <a href="{% url 'staff-delete' object.id %}" class="btn btn-tool">
+      <i class="fas fa-times"></i>
+    </a>
+  </div>
+</div>
+{% endblock content-header %}
+
+{% block content %}
+    <div class="row">
+      <div class="col-sm-4">
+        <div>
+          <h3>{{ object }} </h3>
+          <h5>{{ object.current_class }} </h5>
+          <h5>{{ object.get_gender_display }} </h5>
+          <h5>{{ object.get_current_status_display }} </h5>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div>
+          <div class="form-group border-bottom row">
+            <label class="col">
+              Date of Birth
+            </label>
+            <div class="col">
+              {{ object.date_of_birth }}
+            </div>
+          </div>
+
+          <div class="form-group border-bottom row">
+            <label class="col">
+               Mobile Number
+            </label>
+            <div class="col">
+              {{ object.mobile_number}}
+            </div>
+          </div>
+
+          <div class="form-group border-bottom row">
+            <label class="col">
+              Address
+            </label>
+            <div class="col">
+              {{ object.address }}
+            </div>
+          </div>
+          <div class="form-group border-bottom row">
+            <label class="col">
+              Comments
+            </label>
+            <div class="col">
+              {{ object.others }}
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <h6>Monthly Salary Records</h6>
+  <div class="table-responsive">
+    <table id="salarytable" class="table table-bordered table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th>Year</th>
+          <th>Month</th>
+          <th>Amount Paid</th>
+          <th>Deductions</th>
+          <th>Balance Due</th>
+          <th>Status</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for record in salary_summary.salary_records %}
+          <tr>
+            <td>{{ record.year }}</td>
+            <td>{{ record.get_month_display }}</td>
+            <td>{{ record.amount_paid }}</td>
+            <td>{{ record.deductions }}</td>
+            <td>{{ record.balance_due }}</td>
+            <td>
+              {% if record.balance_due >= 0 %}
+              <span class="badge badge-success">Fully Paid</span>
+              {% else %}
+              <span class="badge badge-danger">Partial Payment</span>
+              {% endif %}
+            </td>
+            <td>{{ record.comments }}</td>
+          </tr>
+        {% empty %}
+          <tr>
+            <td colspan="6">No salary records available.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+{% endblock content %}
+{% block morejs %}
+<script>
+   $('#salarytable').DataTable({
+    select: false
+    });
+</script>
+
+{% endblock morejs %}

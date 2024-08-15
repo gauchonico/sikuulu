@@ -1,0 +1,2141 @@
+INFO 2024-08-13 11:12:10,724 Watching for file changes with StatReloader
+INFO 2024-08-13 11:12:15,339 "GET / HTTP/1.1" 302 0
+INFO 2024-08-13 11:12:15,514 "GET /accounts/login/?next=/ HTTP/1.1" 200 3987
+INFO 2024-08-13 11:12:15,762 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-08-13 11:12:15,770 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-08-13 11:12:15,780 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-08-13 11:12:15,782 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-08-13 11:12:15,796 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-08-13 11:12:15,800 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+INFO 2024-08-13 11:12:15,802 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-08-13 11:12:15,908 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-08-13 11:12:15,978 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-08-13 11:12:15,995 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-08-13 11:12:16,004 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-08-13 11:12:16,006 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-08-13 11:12:16,007 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-08-13 11:12:16,407 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-08-13 11:12:29,300 "POST /accounts/login/ HTTP/1.1" 200 4112
+INFO 2024-08-13 11:15:11,561 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:15:11,589 "GET / HTTP/1.1" 200 9317
+INFO 2024-08-13 11:15:11,741 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-08-13 11:15:11,834 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-08-13 11:15:12,216 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-08-13 11:15:19,551 "GET /student/list HTTP/1.1" 200 11654
+INFO 2024-08-13 11:15:45,471 "GET /finance/list/ HTTP/1.1" 200 11686
+INFO 2024-08-13 11:15:51,612 "GET /finance/receipt/create?invoice=5 HTTP/1.1" 200 10871
+INFO 2024-08-13 11:16:13,826 "GET /session/list/ HTTP/1.1" 200 12654
+INFO 2024-08-13 11:16:24,137 "GET /term/list/ HTTP/1.1" 200 12258
+INFO 2024-08-13 11:16:27,872 "GET /subject/list/ HTTP/1.1" 200 12001
+INFO 2024-08-13 11:16:38,979 "GET /class/list/ HTTP/1.1" 200 12259
+INFO 2024-08-13 11:16:45,316 "GET /site-config HTTP/1.1" 200 11150
+INFO 2024-08-13 11:16:50,877 "GET /result/create/ HTTP/1.1" 200 11447
+INFO 2024-08-13 11:16:57,195 "POST /result/create/ HTTP/1.1" 200 11365
+INFO 2024-08-13 11:17:18,154 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:17:18,293 "GET /result/edit-results/ HTTP/1.1" 200 15970
+INFO 2024-08-13 11:17:59,399 "GET /student/list HTTP/1.1" 200 11654
+INFO 2024-08-13 11:18:01,161 "GET /student/5/ HTTP/1.1" 200 11672
+INFO 2024-08-13 11:18:01,498 "GET /media/students/passports/Screenshot_2024-04-17_at_11.40.36_AM.png HTTP/1.1" 200 1387303
+INFO 2024-08-13 11:18:45,361 "GET /result/view/all HTTP/1.1" 200 13967
+INFO 2024-08-13 11:19:33,235 "GET /result/create/ HTTP/1.1" 200 11447
+INFO 2024-08-13 11:19:39,486 "POST /result/create/ HTTP/1.1" 200 11365
+INFO 2024-08-13 11:19:51,909 "GET /result/create/ HTTP/1.1" 200 11447
+INFO 2024-08-13 11:19:54,068 "POST /result/create/ HTTP/1.1" 200 11365
+INFO 2024-08-13 11:19:57,748 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:19:58,055 "GET /result/edit-results/ HTTP/1.1" 200 15970
+INFO 2024-08-13 11:20:06,443 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:20:06,665 "GET /result/edit-results/ HTTP/1.1" 200 15970
+INFO 2024-08-13 11:20:11,063 "GET /result/view/all HTTP/1.1" 200 13967
+INFO 2024-08-13 11:20:17,968 "GET /current-session/ HTTP/1.1" 200 10665
+ERROR 2024-08-13 11:20:21,659 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py", line 260, in post
+    form = self.form_Class(request.POST)
+           ^^^^^^^^^^^^^^^
+AttributeError: 'CurrentSessionAndTermView' object has no attribute 'form_Class'
+ERROR 2024-08-13 11:20:21,661 "POST /current-session/ HTTP/1.1" 500 81038
+ERROR 2024-08-13 11:21:01,185 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py", line 260, in post
+    form = self.form_Class(request.POST)
+           ^^^^^^^^^^^^^^^
+AttributeError: 'CurrentSessionAndTermView' object has no attribute 'form_Class'
+ERROR 2024-08-13 11:21:01,188 "POST /current-session/ HTTP/1.1" 500 81038
+ERROR 2024-08-13 11:21:08,197 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py", line 260, in post
+    form = self.form_Class(request.POST)
+           ^^^^^^^^^^^^^^^
+AttributeError: 'CurrentSessionAndTermView' object has no attribute 'form_Class'
+ERROR 2024-08-13 11:21:08,199 "POST /current-session/ HTTP/1.1" 500 81038
+INFO 2024-08-13 11:25:11,123 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:25:12,999 Watching for file changes with StatReloader
+INFO 2024-08-13 11:25:18,999 Watching for file changes with StatReloader
+ERROR 2024-08-13 11:25:26,726 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py", line 268, in post
+    return render(request, self.template_name, {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/Users/lukyamuzinicholas/miniconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:25:26,731 "POST /current-session/ HTTP/1.1" 500 118667
+ERROR 2024-08-13 11:25:41,060 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:25:41,061 "POST /current-session/ HTTP/1.1" 500 70407
+ERROR 2024-08-13 11:25:44,875 Internal Server Error: /student/list
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:25:44,876 "GET /student/list HTTP/1.1" 500 69429
+ERROR 2024-08-13 11:25:47,513 Internal Server Error: /student/list
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:25:47,514 "GET /student/list HTTP/1.1" 500 69566
+ERROR 2024-08-13 11:25:51,739 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:25:51,740 "GET / HTTP/1.1" 500 69325
+ERROR 2024-08-13 11:26:02,534 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:26:02,535 "GET / HTTP/1.1" 500 69291
+ERROR 2024-08-13 11:26:06,651 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:26:06,653 "GET /admin/ HTTP/1.1" 500 69208
+ERROR 2024-08-13 11:26:40,756 Internal Server Error: /site-config
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:26:40,757 "GET /site-config HTTP/1.1" 500 69424
+INFO 2024-08-13 11:30:14,473 Watching for file changes with StatReloader
+INFO 2024-08-13 11:30:24,812 "GET / HTTP/1.1" 302 0
+INFO 2024-08-13 11:30:24,888 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-08-13 11:30:32,033 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:30:32,059 "GET / HTTP/1.1" 200 9311
+INFO 2024-08-13 11:30:34,592 "GET /student/list HTTP/1.1" 200 9970
+INFO 2024-08-13 11:30:42,152 "GET /current-session/ HTTP/1.1" 200 10539
+INFO 2024-08-13 11:30:49,264 "GET /site-config HTTP/1.1" 200 11144
+INFO 2024-08-13 11:30:54,645 "GET /session/list/ HTTP/1.1" 200 11619
+INFO 2024-08-13 11:31:02,168 "POST /session/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:31:02,209 "GET /session/list/ HTTP/1.1" 200 12107
+INFO 2024-08-13 11:31:13,452 "GET /term/list/ HTTP/1.1" 200 12252
+INFO 2024-08-13 11:31:17,807 "GET /current-session/ HTTP/1.1" 200 10579
+ERROR 2024-08-13 11:31:22,481 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py", line 268, in post
+    return render(request, self.template_name, {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/Users/lukyamuzinicholas/miniconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:31:22,486 "POST /current-session/ HTTP/1.1" 500 118667
+ERROR 2024-08-13 11:31:41,053 Internal Server Error: /result/view/all
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:31:41,054 "GET /result/view/all HTTP/1.1" 500 69456
+ERROR 2024-08-13 11:31:45,966 Internal Server Error: /student/list
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:31:45,967 "GET /student/list HTTP/1.1" 500 69429
+ERROR 2024-08-13 11:31:49,414 Internal Server Error: /finance/list/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2024-08-13 11:31:49,415 "GET /finance/list/ HTTP/1.1" 500 69438
+INFO 2024-08-13 11:32:41,522 Watching for file changes with StatReloader
+INFO 2024-08-13 11:33:07,530 "GET / HTTP/1.1" 302 0
+INFO 2024-08-13 11:33:07,560 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-08-13 11:33:15,443 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:33:15,469 "GET / HTTP/1.1" 200 9311
+INFO 2024-08-13 11:33:32,743 "GET /current-session/ HTTP/1.1" 200 10539
+INFO 2024-08-13 11:35:48,223 "GET /term/create/?next=current-session/ HTTP/1.1" 200 10161
+INFO 2024-08-13 11:35:58,020 "GET /term/list/ HTTP/1.1" 200 12252
+INFO 2024-08-13 11:36:05,286 "GET /term/2/update/ HTTP/1.1" 200 10170
+INFO 2024-08-13 11:36:08,801 "POST /term/2/update/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:36:08,839 "GET /term/list/ HTTP/1.1" 200 12393
+INFO 2024-08-13 11:36:33,957 "GET /student/list HTTP/1.1" 200 9970
+INFO 2024-08-13 11:36:42,158 "GET /student/create/ HTTP/1.1" 200 13633
+INFO 2024-08-13 11:37:30,532 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:37:30,565 "GET /student/1/ HTTP/1.1" 200 11336
+INFO 2024-08-13 11:37:30,797 "GET /media/students/passports/arise.png HTTP/1.1" 200 18583
+INFO 2024-08-13 11:37:42,005 "GET /result/create/ HTTP/1.1" 200 10596
+INFO 2024-08-13 11:37:47,094 "POST /result/create/ HTTP/1.1" 200 10926
+INFO 2024-08-13 11:37:56,806 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:37:56,864 "GET /result/edit-results/ HTTP/1.1" 200 11447
+INFO 2024-08-13 11:38:18,148 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:38:18,209 "GET /result/edit-results/ HTTP/1.1" 200 11596
+INFO 2024-08-13 11:38:27,326 "GET /result/view/all HTTP/1.1" 200 10088
+INFO 2024-08-13 11:38:36,843 "GET /current-session/ HTTP/1.1" 200 10539
+INFO 2024-08-13 11:38:44,571 "GET /term/list/ HTTP/1.1" 200 12252
+INFO 2024-08-13 11:38:51,482 "GET /term/1/update/ HTTP/1.1" 200 10170
+INFO 2024-08-13 11:38:55,945 "POST /term/1/update/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:38:55,979 "GET /term/list/ HTTP/1.1" 200 12393
+INFO 2024-08-13 11:38:58,395 "GET /result/view/all HTTP/1.1" 200 8855
+INFO 2024-08-13 11:39:12,216 "GET /session/list/ HTTP/1.1" 200 11619
+INFO 2024-08-13 11:39:23,840 "POST /session/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:39:23,878 "GET /session/list/ HTTP/1.1" 200 12107
+INFO 2024-08-13 11:43:24,938 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:43:26,732 Watching for file changes with StatReloader
+INFO 2024-08-13 11:43:35,496 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:43:36,138 Watching for file changes with StatReloader
+INFO 2024-08-13 11:43:41,649 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:43:42,372 Watching for file changes with StatReloader
+INFO 2024-08-13 11:43:44,321 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:43:45,138 Watching for file changes with StatReloader
+INFO 2024-08-13 11:44:06,222 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:44:07,120 Watching for file changes with StatReloader
+INFO 2024-08-13 11:44:22,198 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-08-13 11:44:22,859 Watching for file changes with StatReloader
+INFO 2024-08-13 11:44:51,005 "GET /current-session/ HTTP/1.1" 200 10579
+INFO 2024-08-13 11:44:53,873 "POST /current-session/ HTTP/1.1" 200 10579
+INFO 2024-08-13 11:44:57,608 "POST /current-session/ HTTP/1.1" 200 10579
+INFO 2024-08-13 11:45:02,934 "POST /current-session/ HTTP/1.1" 200 10579
+INFO 2024-08-13 11:45:17,158 "GET /finance/list/ HTTP/1.1" 200 9946
+INFO 2024-08-13 11:45:27,805 "GET /staff/list/ HTTP/1.1" 200 9708
+INFO 2024-08-13 11:45:29,759 "GET /student/list HTTP/1.1" 200 10266
+INFO 2024-08-13 11:45:31,432 "GET / HTTP/1.1" 200 9311
+INFO 2024-08-13 11:45:49,519 "GET /finance/list/ HTTP/1.1" 200 9946
+INFO 2024-08-13 11:45:52,044 "GET /finance/bulk-invoice/ HTTP/1.1" 200 9312
+INFO 2024-08-13 11:45:57,643 "GET /finance/create/ HTTP/1.1" 200 13501
+INFO 2024-08-13 11:46:29,725 "GET /finance/list/ HTTP/1.1" 200 9946
+INFO 2024-08-13 11:52:20,609 "GET /staff/list/ HTTP/1.1" 200 9708
+INFO 2024-08-13 11:52:28,001 "GET /staff/create/ HTTP/1.1" 200 12619
+INFO 2024-08-13 11:53:50,757 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-08-13 11:53:50,823 "GET /staff/1/ HTTP/1.1" 200 10857
+INFO 2024-08-13 11:53:54,143 "GET /staff/list/ HTTP/1.1" 200 9921
+INFO 2024-08-13 11:53:58,768 "GET /staff/1/ HTTP/1.1" 200 10714
+INFO 2024-08-13 11:54:01,324 "GET /staff/1/delete/ HTTP/1.1" 200 9608
+INFO 2024-08-13 11:54:05,613 "GET /staff/1/delete/ HTTP/1.1" 200 9608
+INFO 2024-08-13 11:54:08,019 "GET /staff/list/ HTTP/1.1" 200 9921
+INFO 2024-08-13 12:02:03,740 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:05,384 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:11,079 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:12,826 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:25,476 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:27,122 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:33,041 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:34,956 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:40,427 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:41,184 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:43,485 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:44,660 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:52,187 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:52,981 Watching for file changes with StatReloader
+INFO 2024-08-13 12:02:55,264 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:02:55,907 Watching for file changes with StatReloader
+INFO 2024-08-13 12:03:09,615 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:03:11,543 Watching for file changes with StatReloader
+INFO 2024-08-13 12:03:16,974 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:03:18,092 Watching for file changes with StatReloader
+INFO 2024-08-13 12:03:20,372 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:03:21,427 Watching for file changes with StatReloader
+INFO 2024-08-13 12:03:32,022 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:03:33,887 Watching for file changes with StatReloader
+INFO 2024-08-13 12:03:35,548 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:03:37,344 Watching for file changes with StatReloader
+INFO 2024-08-13 12:03:44,114 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:03:44,926 Watching for file changes with StatReloader
+INFO 2024-08-13 12:04:04,099 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:04:07,056 Watching for file changes with StatReloader
+INFO 2024-08-13 12:04:15,726 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:04:16,642 Watching for file changes with StatReloader
+INFO 2024-08-13 12:04:27,924 Watching for file changes with StatReloader
+WARNING 2024-08-13 12:04:37,770 Not Found: /admin/
+WARNING 2024-08-13 12:04:37,771 "GET /admin/ HTTP/1.1" 404 6187
+WARNING 2024-08-13 12:04:38,868 Not Found: /admin/
+WARNING 2024-08-13 12:04:38,869 "GET /admin/ HTTP/1.1" 404 6187
+WARNING 2024-08-13 12:05:00,373 Not Found: /admin/admin
+WARNING 2024-08-13 12:05:00,373 "GET /admin/admin HTTP/1.1" 404 6202
+WARNING 2024-08-13 12:05:16,032 Not Found: /admin/
+WARNING 2024-08-13 12:05:16,033 "GET /admin/ HTTP/1.1" 404 6187
+WARNING 2024-08-13 12:05:25,203 Not Found: /admin/
+WARNING 2024-08-13 12:05:25,205 "GET /admin/ HTTP/1.1" 404 6187
+INFO 2024-08-13 12:05:26,168 "GET / HTTP/1.1" 200 9311
+INFO 2024-08-13 12:05:28,676 "GET /student/list HTTP/1.1" 200 10266
+INFO 2024-08-13 12:05:29,808 "GET /staff/list/ HTTP/1.1" 200 9921
+WARNING 2024-08-13 12:07:31,358 Not Found: /admin/
+WARNING 2024-08-13 12:07:31,358 "GET /admin/ HTTP/1.1" 404 6187
+WARNING 2024-08-13 12:07:32,363 Not Found: /admin/
+WARNING 2024-08-13 12:07:32,364 "GET /admin/ HTTP/1.1" 404 6187
+INFO 2024-08-13 12:13:21,762 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:13:23,686 Watching for file changes with StatReloader
+INFO 2024-08-13 12:13:37,576 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:13:38,653 Watching for file changes with StatReloader
+INFO 2024-08-13 12:13:46,049 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:13:46,935 Watching for file changes with StatReloader
+INFO 2024-08-13 12:14:41,999 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/settings.py changed, reloading.
+INFO 2024-08-13 12:14:43,903 Watching for file changes with StatReloader
+INFO 2024-08-13 12:16:08,059 Watching for file changes with StatReloader
+WARNING 2024-08-13 12:16:11,757 Not Found: /admin/
+WARNING 2024-08-13 12:16:11,758 "GET /admin/ HTTP/1.1" 404 6187
+INFO 2024-08-13 12:16:55,656 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/settings.py changed, reloading.
+INFO 2024-08-13 12:16:57,604 Watching for file changes with StatReloader
+INFO 2024-08-13 12:17:02,613 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:17:08,709 Watching for file changes with StatReloader
+INFO 2024-08-13 12:17:22,149 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:17:25,004 Watching for file changes with StatReloader
+INFO 2024-08-13 12:17:34,246 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:17:35,824 Watching for file changes with StatReloader
+INFO 2024-08-13 12:18:04,417 Watching for file changes with StatReloader
+INFO 2024-08-13 12:18:33,519 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:18:34,285 Watching for file changes with StatReloader
+INFO 2024-08-13 12:18:37,954 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:18:38,658 Watching for file changes with StatReloader
+INFO 2024-08-13 12:18:42,067 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:18:42,739 Watching for file changes with StatReloader
+INFO 2024-08-13 12:20:40,623 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/school_app/urls.py changed, reloading.
+INFO 2024-08-13 12:20:41,262 Watching for file changes with StatReloader
+INFO 2024-08-13 12:20:59,389 "GET /admin/ HTTP/1.1" 200 3326
+INFO 2024-08-13 12:20:59,515 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2024-08-13 12:20:59,544 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2024-08-13 12:20:59,666 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-08-13 12:20:59,673 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-08-13 12:20:59,675 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-08-13 12:20:59,688 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-08-13 12:20:59,692 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-08-13 12:21:55,058 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:21:56,549 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:11,527 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:12,451 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:14,798 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:15,479 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:16,839 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:17,721 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:32,482 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:33,341 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:35,682 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:36,408 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:39,002 "GET /admin/ HTTP/1.1" 200 3986
+INFO 2024-08-13 12:22:48,002 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:49,471 Watching for file changes with StatReloader
+INFO 2024-08-13 12:22:53,730 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:22:54,722 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:02,416 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/finance/admin.py changed, reloading.
+INFO 2024-08-13 12:23:03,454 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:07,043 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:08,361 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:16,410 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:17,359 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:20,634 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:21,392 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:26,797 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:27,609 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:30,992 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:31,809 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:34,069 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:34,724 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:36,965 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:37,602 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:39,082 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:39,741 Watching for file changes with StatReloader
+INFO 2024-08-13 12:23:46,531 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:23:48,017 Watching for file changes with StatReloader
+INFO 2024-08-13 12:24:06,764 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-13 12:24:08,634 Watching for file changes with StatReloader
+INFO 2024-08-13 12:24:09,665 "GET /admin/ HTTP/1.1" 200 5075
+INFO 2024-08-13 12:24:11,722 "GET /admin/staffs/staff/ HTTP/1.1" 200 6916
+INFO 2024-08-13 12:24:11,969 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-08-13 12:24:11,969 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-08-13 12:24:11,973 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2024-08-13 12:24:11,978 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:12,006 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-08-13 12:24:12,046 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2024-08-13 12:24:12,126 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-08-13 12:24:14,278 "GET /admin/staffs/staff/add/ HTTP/1.1" 200 12524
+INFO 2024-08-13 12:24:14,425 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2024-08-13 12:24:14,439 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-08-13 12:24:14,446 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2024-08-13 12:24:14,452 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-08-13 12:24:14,457 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2024-08-13 12:24:14,463 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:14,468 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-08-13 12:24:14,771 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-08-13 12:24:17,683 "GET /admin/staffs/salaryscale/ HTTP/1.1" 200 5812
+INFO 2024-08-13 12:24:17,805 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:19,452 "GET /admin/staffs/salaryscale/add/ HTTP/1.1" 200 6978
+INFO 2024-08-13 12:24:19,724 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:39,959 "POST /admin/staffs/salaryscale/add/ HTTP/1.1" 302 0
+INFO 2024-08-13 12:24:40,108 "GET /admin/staffs/salaryscale/add/ HTTP/1.1" 200 7235
+INFO 2024-08-13 12:24:40,235 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:40,316 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-08-13 12:24:49,862 "POST /admin/staffs/salaryscale/add/ HTTP/1.1" 302 0
+INFO 2024-08-13 12:24:49,942 "GET /admin/staffs/salaryscale/ HTTP/1.1" 200 7420
+INFO 2024-08-13 12:24:50,082 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:52,225 "GET /admin/staffs/staff/ HTTP/1.1" 200 6916
+INFO 2024-08-13 12:24:52,377 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:53,639 "GET /admin/staffs/staff/1/change/ HTTP/1.1" 200 12982
+INFO 2024-08-13 12:24:53,914 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:24:53,980 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2024-08-13 12:25:05,171 "POST /admin/staffs/staff/1/change/ HTTP/1.1" 302 0
+INFO 2024-08-13 12:25:05,237 "GET /admin/staffs/staff/ HTTP/1.1" 200 7122
+INFO 2024-08-13 12:25:05,364 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-13 12:30:38,249 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:30:40,755 Watching for file changes with StatReloader
+INFO 2024-08-13 12:30:43,627 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:30:45,393 Watching for file changes with StatReloader
+INFO 2024-08-13 12:30:47,895 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:30:51,251 Watching for file changes with StatReloader
+INFO 2024-08-13 12:30:53,709 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:30:54,324 Watching for file changes with StatReloader
+INFO 2024-08-13 12:30:58,639 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:00,045 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:04,671 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:05,876 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:07,132 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:07,877 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:12,588 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:13,257 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:15,656 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:16,697 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:21,154 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:22,253 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:36,909 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:37,979 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:40,232 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:41,607 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:48,483 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:49,182 Watching for file changes with StatReloader
+INFO 2024-08-13 12:31:57,836 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:31:58,495 Watching for file changes with StatReloader
+INFO 2024-08-13 12:32:09,302 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:32:10,529 Watching for file changes with StatReloader
+INFO 2024-08-13 12:33:16,576 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:33:17,907 Watching for file changes with StatReloader
+INFO 2024-08-13 12:33:48,034 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-13 12:33:48,948 Watching for file changes with StatReloader
+INFO 2024-08-14 06:32:09,592 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-14 06:32:09,701 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO 2024-08-14 06:32:10,153 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-08-14 06:32:10,161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-08-14 06:32:10,473 "GET / HTTP/1.1" 302 0
+INFO 2024-08-14 06:32:10,516 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-08-14 06:32:10,765 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+INFO 2024-08-14 06:32:10,769 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-08-14 06:32:10,784 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-08-14 06:32:10,856 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-08-14 06:32:11,103 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-08-14 06:32:16,683 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-08-14 06:32:16,711 "GET / HTTP/1.1" 200 9311
+INFO 2024-08-14 06:32:16,947 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-08-14 06:32:19,310 "GET /student/list HTTP/1.1" 200 10266
+INFO 2024-08-14 06:32:33,179 "GET /staff/list/ HTTP/1.1" 200 9921
+INFO 2024-08-14 06:39:45,500 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:39:49,280 Watching for file changes with StatReloader
+INFO 2024-08-14 06:39:53,425 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:39:54,203 Watching for file changes with StatReloader
+INFO 2024-08-14 06:39:58,239 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:40:00,146 Watching for file changes with StatReloader
+INFO 2024-08-14 06:40:08,045 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:40:08,886 Watching for file changes with StatReloader
+INFO 2024-08-14 06:40:10,741 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:40:11,516 Watching for file changes with StatReloader
+INFO 2024-08-14 06:41:24,187 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:41:26,194 Watching for file changes with StatReloader
+INFO 2024-08-14 06:41:28,896 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:41:29,656 Watching for file changes with StatReloader
+INFO 2024-08-14 06:41:35,804 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:41:37,016 Watching for file changes with StatReloader
+INFO 2024-08-14 06:41:40,676 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:41:41,304 Watching for file changes with StatReloader
+INFO 2024-08-14 06:41:52,917 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:41:55,025 Watching for file changes with StatReloader
+INFO 2024-08-14 06:41:57,607 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:41:59,348 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:01,942 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:03,365 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:05,753 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:06,949 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:14,001 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:15,513 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:19,961 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:21,409 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:24,355 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:25,128 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:45,409 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:46,040 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:48,015 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:48,939 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:50,425 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:51,531 Watching for file changes with StatReloader
+INFO 2024-08-14 06:42:57,167 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:42:58,498 Watching for file changes with StatReloader
+INFO 2024-08-14 06:43:01,346 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:43:03,059 Watching for file changes with StatReloader
+INFO 2024-08-14 06:43:07,414 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:43:08,322 Watching for file changes with StatReloader
+INFO 2024-08-14 06:43:13,560 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:43:14,196 Watching for file changes with StatReloader
+INFO 2024-08-14 06:43:22,112 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:43:22,941 Watching for file changes with StatReloader
+INFO 2024-08-14 06:43:41,780 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:43:42,613 Watching for file changes with StatReloader
+INFO 2024-08-14 06:43:49,718 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:43:51,139 Watching for file changes with StatReloader
+INFO 2024-08-14 06:44:07,097 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:44:07,728 Watching for file changes with StatReloader
+INFO 2024-08-14 06:44:11,591 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:44:12,540 Watching for file changes with StatReloader
+INFO 2024-08-14 06:44:19,384 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:44:20,146 Watching for file changes with StatReloader
+INFO 2024-08-14 06:44:38,959 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:44:39,764 Watching for file changes with StatReloader
+INFO 2024-08-14 06:44:44,387 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:44:45,465 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:04,820 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:05,572 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:18,424 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:19,097 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:22,571 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:24,111 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:26,102 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:27,112 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:32,824 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:33,786 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:35,726 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:36,452 Watching for file changes with StatReloader
+INFO 2024-08-14 06:45:37,925 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 06:45:38,918 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:00,193 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:01,004 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:07,989 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:09,927 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:11,593 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:12,498 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:18,012 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:19,041 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:28,824 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:30,354 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:46,147 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:47,671 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:51,291 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:52,268 Watching for file changes with StatReloader
+INFO 2024-08-14 06:47:54,837 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:47:55,551 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:02,090 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:02,741 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:05,213 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:06,263 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:10,545 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:11,343 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:16,835 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:17,859 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:37,649 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:38,276 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:44,855 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:45,786 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:47,291 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:47,955 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:53,437 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:54,078 Watching for file changes with StatReloader
+INFO 2024-08-14 06:48:56,415 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:48:57,059 Watching for file changes with StatReloader
+INFO 2024-08-14 06:49:54,702 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:49:55,575 Watching for file changes with StatReloader
+INFO 2024-08-14 06:49:58,995 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:49:59,716 Watching for file changes with StatReloader
+INFO 2024-08-14 06:50:02,174 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:50:03,125 Watching for file changes with StatReloader
+INFO 2024-08-14 06:50:08,747 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:50:10,282 Watching for file changes with StatReloader
+INFO 2024-08-14 06:50:12,147 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:50:13,507 Watching for file changes with StatReloader
+INFO 2024-08-14 06:50:20,153 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:50:20,942 Watching for file changes with StatReloader
+INFO 2024-08-14 06:50:22,356 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 06:50:22,985 Watching for file changes with StatReloader
+INFO 2024-08-14 06:52:12,211 "GET /staff/list/ HTTP/1.1" 200 9921
+INFO 2024-08-14 06:52:15,312 "GET /finance/list/ HTTP/1.1" 200 9946
+INFO 2024-08-14 06:57:41,964 "GET /finance/list/ HTTP/1.1" 200 10206
+INFO 2024-08-14 06:58:32,594 "GET /finance/list/ HTTP/1.1" 200 10208
+ERROR 2024-08-14 06:58:34,983 Internal Server Error: /staff/salaries/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: staffs_monthlysalary
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/paginator.py", line 76, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+           ^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 519, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 504, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: staffs_monthlysalary
+ERROR 2024-08-14 06:58:34,989 "GET /staff/salaries/ HTTP/1.1" 500 166051
+INFO 2024-08-14 07:01:21,436 "GET /admin/staffs/staff/ HTTP/1.1" 200 6916
+INFO 2024-08-14 07:01:21,571 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:01:21,591 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-08-14 07:01:21,600 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2024-08-14 07:01:21,885 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-08-14 07:01:49,027 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-14 07:01:49,749 Watching for file changes with StatReloader
+INFO 2024-08-14 07:02:28,144 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/admin.py changed, reloading.
+INFO 2024-08-14 07:02:28,828 Watching for file changes with StatReloader
+INFO 2024-08-14 07:02:31,471 "GET /admin/staffs/staff/ HTTP/1.1" 200 7235
+INFO 2024-08-14 07:02:31,629 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+ERROR 2024-08-14 07:02:33,566 Internal Server Error: /admin/staffs/monthlysalary/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: staffs_monthlysalary
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 100, in __init__
+    self.get_results(request)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 235, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+           ^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 519, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 504, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: staffs_monthlysalary
+ERROR 2024-08-14 07:02:33,573 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 500 174714
+INFO 2024-08-14 07:02:45,148 "GET /admin/staffs/staff/ HTTP/1.1" 200 7235
+INFO 2024-08-14 07:03:08,830 Watching for file changes with StatReloader
+INFO 2024-08-14 07:03:11,119 "GET /staff/salaries/ HTTP/1.1" 200 9792
+INFO 2024-08-14 07:06:07,075 "GET /staff/salaries/ HTTP/1.1" 200 9798
+INFO 2024-08-14 07:06:39,641 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:06:40,564 Watching for file changes with StatReloader
+INFO 2024-08-14 07:06:55,889 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:06:57,447 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:05,322 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:07,357 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:08,825 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:09,560 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:16,728 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:17,710 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:19,216 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:19,918 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:34,601 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:35,894 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:44,680 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:46,269 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:48,674 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:49,368 Watching for file changes with StatReloader
+INFO 2024-08-14 07:07:54,444 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:07:55,211 Watching for file changes with StatReloader
+INFO 2024-08-14 07:08:06,210 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:08:07,269 Watching for file changes with StatReloader
+INFO 2024-08-14 07:08:15,318 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:08:16,662 Watching for file changes with StatReloader
+INFO 2024-08-14 07:08:27,473 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:08:28,349 Watching for file changes with StatReloader
+INFO 2024-08-14 07:08:55,528 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:08:56,639 Watching for file changes with StatReloader
+INFO 2024-08-14 07:09:53,522 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6145
+INFO 2024-08-14 07:09:53,740 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:09:55,531 "GET /admin/staffs/monthlysalary/add/ HTTP/1.1" 200 11622
+INFO 2024-08-14 07:09:55,709 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:10:19,190 "GET /admin/staffs/staff/ HTTP/1.1" 200 7235
+INFO 2024-08-14 07:10:19,339 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:10:20,559 "GET /admin/staffs/staff/1/change/ HTTP/1.1" 200 13301
+INFO 2024-08-14 07:10:20,721 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:10:53,881 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:10:55,037 Watching for file changes with StatReloader
+INFO 2024-08-14 07:11:43,622 Watching for file changes with StatReloader
+INFO 2024-08-14 07:11:53,777 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6145
+INFO 2024-08-14 07:11:53,883 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:12:01,121 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6145
+INFO 2024-08-14 07:12:01,306 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:12:04,093 "GET /admin/staffs/monthlysalary/add/ HTTP/1.1" 200 10386
+INFO 2024-08-14 07:12:04,324 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:12:22,254 "GET /admin/staffs/salaryscale/ HTTP/1.1" 200 7522
+INFO 2024-08-14 07:12:22,570 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:12:26,103 "GET /admin/staffs/salaryscale/1/change/ HTTP/1.1" 200 7596
+INFO 2024-08-14 07:12:26,213 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+ERROR 2024-08-14 07:13:10,597 Internal Server Error: /admin/staffs/monthlysalary/add/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1590, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 815, in log_addition
+    object_repr=str(object),
+                ^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py", line 58, in __str__
+    return f"{self.staff} - {self.get_month_display()} {self.year}"
+                             ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MonthlySalary' object has no attribute 'get_month_display'
+ERROR 2024-08-14 07:13:10,602 "POST /admin/staffs/monthlysalary/add/ HTTP/1.1" 500 116323
+INFO 2024-08-14 07:13:31,518 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:13:32,477 Watching for file changes with StatReloader
+INFO 2024-08-14 07:13:38,148 "GET /admin/staffs/monthlysalary/add/ HTTP/1.1" 200 10386
+ERROR 2024-08-14 07:13:40,344 Internal Server Error: /admin/staffs/monthlysalary/add/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1590, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 815, in log_addition
+    object_repr=str(object),
+                ^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py", line 58, in __str__
+    return f"{self.staff} - {self.month()} {self.year}"
+                             ^^^^^^^^^^^^
+TypeError: 'int' object is not callable
+ERROR 2024-08-14 07:13:40,348 "POST /admin/staffs/monthlysalary/add/ HTTP/1.1" 500 115967
+INFO 2024-08-14 07:14:14,775 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:14:15,988 Watching for file changes with StatReloader
+INFO 2024-08-14 07:14:18,576 "GET /admin/staffs/monthlysalary/add/ HTTP/1.1" 200 10386
+INFO 2024-08-14 07:14:20,566 "POST /admin/staffs/monthlysalary/add/ HTTP/1.1" 302 0
+INFO 2024-08-14 07:14:20,629 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 7561
+INFO 2024-08-14 07:14:20,826 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:14:24,370 "GET /admin/staffs/monthlysalary/1/change/ HTTP/1.1" 200 10730
+INFO 2024-08-14 07:14:24,532 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+ERROR 2024-08-14 07:22:49,142 Internal Server Error: /staff/salaries/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1162, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 513, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 55, in pre_sql_setup
+    self.setup_query()
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 46, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+                                                            ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 248, in get_select
+    related_klass_infos = self.get_related_selections(select)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 985, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'staff_salary_scale'. Choices are: staff
+ERROR 2024-08-14 07:22:49,149 "GET /staff/salaries/ HTTP/1.1" 500 207323
+INFO 2024-08-14 07:23:35,150 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 07:23:36,413 Watching for file changes with StatReloader
+INFO 2024-08-14 07:23:37,304 "GET /staff/salaries/ HTTP/1.1" 200 10738
+INFO 2024-08-14 07:27:10,403 "GET /staff/salaries/ HTTP/1.1" 200 10752
+INFO 2024-08-14 07:28:53,464 "GET /staff/salaries/ HTTP/1.1" 200 10775
+INFO 2024-08-14 07:29:25,700 "GET /staff/salaries/ HTTP/1.1" 200 10780
+INFO 2024-08-14 07:34:55,032 "GET /staff/salaries/ HTTP/1.1" 200 10812
+INFO 2024-08-14 07:35:43,752 "GET /staff/salaries/ HTTP/1.1" 200 10813
+INFO 2024-08-14 07:36:08,668 "GET /staff/salaries/ HTTP/1.1" 200 10816
+INFO 2024-08-14 07:36:45,428 "GET /staff/salaries/ HTTP/1.1" 200 10802
+INFO 2024-08-14 07:37:17,628 "GET /staff/salaries/ HTTP/1.1" 200 10781
+INFO 2024-08-14 07:38:04,855 "GET /staff/salaries/ HTTP/1.1" 200 10748
+INFO 2024-08-14 07:38:30,021 "GET /staff/salaries/ HTTP/1.1" 200 10748
+INFO 2024-08-14 07:38:35,080 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 7331
+INFO 2024-08-14 07:38:35,308 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:38:36,612 "GET /admin/staffs/monthlysalary/1/change/ HTTP/1.1" 200 10730
+INFO 2024-08-14 07:38:36,761 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:44:36,708 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:44:37,546 Watching for file changes with StatReloader
+INFO 2024-08-14 07:44:39,833 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:44:40,540 Watching for file changes with StatReloader
+INFO 2024-08-14 07:45:45,496 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:45:46,150 Watching for file changes with StatReloader
+INFO 2024-08-14 07:45:48,440 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:45:49,659 Watching for file changes with StatReloader
+INFO 2024-08-14 07:45:51,452 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:45:52,464 Watching for file changes with StatReloader
+INFO 2024-08-14 07:47:02,258 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:47:03,022 Watching for file changes with StatReloader
+INFO 2024-08-14 07:47:05,262 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:47:05,906 Watching for file changes with StatReloader
+INFO 2024-08-14 07:48:25,983 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:48:27,020 Watching for file changes with StatReloader
+INFO 2024-08-14 07:48:29,537 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:48:30,362 Watching for file changes with StatReloader
+INFO 2024-08-14 07:48:35,188 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:48:36,213 Watching for file changes with StatReloader
+INFO 2024-08-14 07:48:44,739 "GET /admin/staffs/monthlysalary/1/change/ HTTP/1.1" 200 10730
+INFO 2024-08-14 07:48:44,938 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:48:47,499 "GET /admin/staffs/monthlysalary/1/change/ HTTP/1.1" 200 10730
+INFO 2024-08-14 07:48:47,665 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:48:50,150 "GET /admin/staffs/monthlysalary/1/delete/ HTTP/1.1" 200 6159
+INFO 2024-08-14 07:48:50,332 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2024-08-14 07:48:52,583 "POST /admin/staffs/monthlysalary/1/delete/ HTTP/1.1" 302 0
+INFO 2024-08-14 07:48:52,649 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6325
+INFO 2024-08-14 07:48:52,852 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:48:54,766 "GET /admin/staffs/monthlysalary/add/ HTTP/1.1" 200 10386
+INFO 2024-08-14 07:48:54,889 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:49:23,622 "POST /admin/staffs/monthlysalary/add/ HTTP/1.1" 302 0
+INFO 2024-08-14 07:49:23,696 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 7561
+INFO 2024-08-14 07:49:23,866 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:49:25,736 "GET /admin/staffs/monthlysalary/2/change/ HTTP/1.1" 200 10687
+INFO 2024-08-14 07:49:25,866 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:50:32,922 "GET /staff/salaries/ HTTP/1.1" 200 10747
+INFO 2024-08-14 07:51:22,056 "GET /staff/salaries/ HTTP/1.1" 200 10717
+INFO 2024-08-14 07:52:49,930 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:52:51,346 Watching for file changes with StatReloader
+INFO 2024-08-14 07:52:53,982 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 07:52:55,430 Watching for file changes with StatReloader
+INFO 2024-08-14 07:52:57,229 "GET /admin/staffs/monthlysalary/2/change/ HTTP/1.1" 200 10687
+INFO 2024-08-14 07:52:57,399 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:52:59,786 "GET /admin/staffs/monthlysalary/2/delete/ HTTP/1.1" 200 6159
+INFO 2024-08-14 07:53:01,389 "POST /admin/staffs/monthlysalary/2/delete/ HTTP/1.1" 302 0
+INFO 2024-08-14 07:53:01,463 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6325
+INFO 2024-08-14 07:53:01,629 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:53:03,873 "GET /admin/staffs/monthlysalary/add/ HTTP/1.1" 200 10386
+INFO 2024-08-14 07:53:03,964 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:53:31,326 "POST /admin/staffs/monthlysalary/add/ HTTP/1.1" 302 0
+INFO 2024-08-14 07:53:31,394 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 7561
+INFO 2024-08-14 07:53:31,546 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:53:34,198 "GET /admin/staffs/monthlysalary/3/change/ HTTP/1.1" 200 10696
+INFO 2024-08-14 07:53:34,380 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 07:53:42,191 "GET /staff/salaries/ HTTP/1.1" 200 10723
+INFO 2024-08-14 07:55:03,509 "GET /staff/salaries/ HTTP/1.1" 200 10704
+INFO 2024-08-14 07:56:18,865 "GET /staff/salaries/ HTTP/1.1" 200 10684
+INFO 2024-08-14 07:56:57,211 "GET /staff/salaries/ HTTP/1.1" 200 10683
+INFO 2024-08-14 07:57:31,755 "GET /staff/salaries/ HTTP/1.1" 200 10683
+INFO 2024-08-14 07:57:45,759 "GET /staff/salary-detail/3/ HTTP/1.1" 200 0
+INFO 2024-08-14 08:00:38,413 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:00:39,563 Watching for file changes with StatReloader
+INFO 2024-08-14 08:00:46,264 "GET /staff/salaries/ HTTP/1.1" 200 10683
+INFO 2024-08-14 08:01:40,121 "GET /staff/salaries/ HTTP/1.1" 200 10657
+INFO 2024-08-14 08:01:51,701 "GET /staff/salaries/ HTTP/1.1" 200 10683
+INFO 2024-08-14 08:02:38,206 "GET /staff/salaries/ HTTP/1.1" 200 10713
+INFO 2024-08-14 08:02:41,257 "GET /staff/salaries/ HTTP/1.1" 200 10713
+INFO 2024-08-14 08:03:21,212 "GET /staff/salaries/ HTTP/1.1" 200 10700
+INFO 2024-08-14 08:05:11,027 "GET /staff/salaries/ HTTP/1.1" 200 10696
+INFO 2024-08-14 08:06:04,427 "GET /staff/salaries/ HTTP/1.1" 200 10698
+INFO 2024-08-14 08:07:09,628 "GET /staff/salaries/ HTTP/1.1" 200 10669
+INFO 2024-08-14 08:07:25,075 "GET /staff/salaries/ HTTP/1.1" 200 10691
+INFO 2024-08-14 08:09:20,285 "GET /staff/salaries/ HTTP/1.1" 200 11124
+INFO 2024-08-14 08:10:58,488 "GET /staff/salaries/ HTTP/1.1" 200 11200
+INFO 2024-08-14 08:11:49,996 "GET /staff/salaries/ HTTP/1.1" 200 11246
+INFO 2024-08-14 08:12:49,961 "GET /staff/salaries/ HTTP/1.1" 200 11307
+INFO 2024-08-14 08:13:03,152 "GET /staff/salaries/ HTTP/1.1" 200 11285
+INFO 2024-08-14 08:13:12,232 "GET /staff/salaries/ HTTP/1.1" 200 11265
+INFO 2024-08-14 08:13:42,148 "GET /staff/salaries/ HTTP/1.1" 200 11241
+INFO 2024-08-14 08:14:13,635 "GET /staff/salaries/ HTTP/1.1" 200 11299
+INFO 2024-08-14 08:15:03,278 "GET /staff/salaries/ HTTP/1.1" 200 11307
+INFO 2024-08-14 08:15:22,152 "GET /staff/salaries/ HTTP/1.1" 200 11309
+INFO 2024-08-14 08:15:59,672 "GET /staff/salaries/ HTTP/1.1" 200 11344
+INFO 2024-08-14 08:16:19,211 "GET /staff/salaries/ HTTP/1.1" 200 11327
+INFO 2024-08-14 08:16:52,962 "GET /staff/salaries/ HTTP/1.1" 200 11316
+INFO 2024-08-14 08:17:07,367 "GET /staff/salaries/ HTTP/1.1" 200 11338
+INFO 2024-08-14 08:17:33,490 "GET /staff/salaries/ HTTP/1.1" 200 11446
+INFO 2024-08-14 08:18:00,154 "GET /staff/salaries/ HTTP/1.1" 200 11432
+INFO 2024-08-14 08:18:20,422 "GET /staff/salaries/ HTTP/1.1" 200 11440
+INFO 2024-08-14 08:18:51,075 "GET /staff/salaries/ HTTP/1.1" 200 11388
+INFO 2024-08-14 08:19:23,302 "GET /staff/salaries/ HTTP/1.1" 200 11311
+INFO 2024-08-14 08:19:29,416 "GET /staff/salaries/ HTTP/1.1" 200 11388
+INFO 2024-08-14 08:20:24,708 "GET /staff/salaries/ HTTP/1.1" 200 11340
+INFO 2024-08-14 08:20:43,392 "GET /staff/salaries/ HTTP/1.1" 200 11346
+INFO 2024-08-14 08:21:29,264 "GET /staff/salaries/ HTTP/1.1" 200 11318
+INFO 2024-08-14 08:21:32,985 "GET /staff/salaries/ HTTP/1.1" 200 11318
+INFO 2024-08-14 08:21:40,999 "GET /staff/salaries/ HTTP/1.1" 200 11353
+INFO 2024-08-14 08:22:08,497 "GET /staff/salaries/ HTTP/1.1" 200 11292
+INFO 2024-08-14 08:22:11,228 "GET /staff/salaries/ HTTP/1.1" 200 11292
+INFO 2024-08-14 08:22:15,526 "GET /staff/salaries/ HTTP/1.1" 200 11292
+INFO 2024-08-14 08:22:23,992 "GET /staff/salaries/ HTTP/1.1" 200 11353
+INFO 2024-08-14 08:22:44,368 "GET /staff/salaries/ HTTP/1.1" 200 11353
+INFO 2024-08-14 08:24:27,043 "GET /staff/salaries/ HTTP/1.1" 200 11489
+INFO 2024-08-14 08:25:46,185 "GET /staff/salaries/ HTTP/1.1" 200 10595
+INFO 2024-08-14 08:27:32,997 "GET /staff/salaries/ HTTP/1.1" 200 10595
+ERROR 2024-08-14 08:27:35,270 Internal Server Error: /staff/salary-detail/3/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'monthlysalary-list' not found. 'monthlysalary-list' is not a valid view function or pattern name.
+ERROR 2024-08-14 08:27:35,274 "GET /staff/salary-detail/3/ HTTP/1.1" 500 175392
+INFO 2024-08-14 08:28:08,513 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10496
+INFO 2024-08-14 08:28:13,643 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10496
+INFO 2024-08-14 08:28:40,618 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:28:41,463 Watching for file changes with StatReloader
+INFO 2024-08-14 08:29:00,768 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10566
+INFO 2024-08-14 08:30:34,518 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10491
+INFO 2024-08-14 08:31:10,954 "GET /staff/salaries/ HTTP/1.1" 200 10595
+INFO 2024-08-14 08:31:13,627 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10491
+INFO 2024-08-14 08:31:19,366 "GET /staff/salaries/ HTTP/1.1" 200 10595
+INFO 2024-08-14 08:31:22,073 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10491
+INFO 2024-08-14 08:31:49,299 "GET /staff/salary-detail/3/ HTTP/1.1" 200 10508
+INFO 2024-08-14 08:32:22,470 "GET /staff/salaries/ HTTP/1.1" 200 10595
+INFO 2024-08-14 08:39:01,099 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:39:02,013 Watching for file changes with StatReloader
+INFO 2024-08-14 08:39:07,574 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:39:08,919 Watching for file changes with StatReloader
+INFO 2024-08-14 08:39:35,212 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:39:36,685 Watching for file changes with StatReloader
+INFO 2024-08-14 08:39:41,827 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:39:42,672 Watching for file changes with StatReloader
+INFO 2024-08-14 08:39:49,786 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:39:50,656 Watching for file changes with StatReloader
+INFO 2024-08-14 08:39:56,616 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:39:57,586 Watching for file changes with StatReloader
+INFO 2024-08-14 08:40:00,088 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:40:00,862 Watching for file changes with StatReloader
+INFO 2024-08-14 08:40:25,758 "GET /staff/salaries/ HTTP/1.1" 200 10597
+ERROR 2024-08-14 08:40:28,259 Internal Server Error: /staff/salary-add/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'as_crispy_field'
+ERROR 2024-08-14 08:40:28,265 "GET /staff/salary-add/ HTTP/1.1" 500 166002
+ERROR 2024-08-14 08:44:00,966 Internal Server Error: /staff/salary-add/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'monthlysalary-list' not found. 'monthlysalary-list' is not a valid view function or pattern name.
+ERROR 2024-08-14 08:44:00,969 "GET /staff/salary-add/ HTTP/1.1" 500 176023
+INFO 2024-08-14 08:44:29,908 "GET /staff/salary-add/ HTTP/1.1" 200 11070
+INFO 2024-08-14 08:47:21,396 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:47:22,961 Watching for file changes with StatReloader
+INFO 2024-08-14 08:47:41,625 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:47:42,672 Watching for file changes with StatReloader
+INFO 2024-08-14 08:48:03,947 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:48:04,739 Watching for file changes with StatReloader
+INFO 2024-08-14 08:48:12,535 "GET /staff/list/ HTTP/1.1" 200 10189
+INFO 2024-08-14 08:48:14,537 "GET /staff/create/ HTTP/1.1" 200 13283
+INFO 2024-08-14 08:49:19,169 "POST /staff/create/ HTTP/1.1" 200 13445
+INFO 2024-08-14 08:49:26,303 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-08-14 08:49:26,360 "GET /staff/2/ HTTP/1.1" 200 11130
+INFO 2024-08-14 08:49:33,033 "GET /staff/salaries/ HTTP/1.1" 200 10597
+INFO 2024-08-14 08:49:35,294 "GET /staff/salary-add/ HTTP/1.1" 200 11121
+INFO 2024-08-14 08:49:53,137 "GET /session/list/ HTTP/1.1" 200 12230
+INFO 2024-08-14 08:50:03,409 "GET /staff/salaries/ HTTP/1.1" 200 10597
+INFO 2024-08-14 08:50:06,957 "GET /staff/salary-add/ HTTP/1.1" 200 11121
+INFO 2024-08-14 08:50:41,508 "POST /staff/salary-add/ HTTP/1.1" 302 0
+INFO 2024-08-14 08:50:41,542 "GET /staff/salaries/ HTTP/1.1" 200 10937
+INFO 2024-08-14 08:53:09,328 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:53:11,105 Watching for file changes with StatReloader
+INFO 2024-08-14 08:53:35,235 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:53:36,384 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:08,743 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:10,839 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:13,570 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:14,212 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:18,522 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:19,430 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:21,845 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:22,880 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:24,308 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:25,136 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:27,634 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:28,461 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:29,998 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:30,781 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:32,771 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:33,780 Watching for file changes with StatReloader
+INFO 2024-08-14 08:54:40,530 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:54:42,885 Watching for file changes with StatReloader
+INFO 2024-08-14 08:55:00,650 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 08:55:02,074 Watching for file changes with StatReloader
+INFO 2024-08-14 08:55:36,788 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:55:38,927 Watching for file changes with StatReloader
+INFO 2024-08-14 08:55:41,565 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:55:43,173 Watching for file changes with StatReloader
+INFO 2024-08-14 08:55:47,671 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:55:48,967 Watching for file changes with StatReloader
+INFO 2024-08-14 08:55:52,439 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:55:53,252 Watching for file changes with StatReloader
+INFO 2024-08-14 08:55:54,840 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:55:56,255 Watching for file changes with StatReloader
+INFO 2024-08-14 08:56:04,900 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:56:06,616 Watching for file changes with StatReloader
+INFO 2024-08-14 08:56:12,151 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:56:12,981 Watching for file changes with StatReloader
+INFO 2024-08-14 08:56:17,083 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:56:18,290 Watching for file changes with StatReloader
+INFO 2024-08-14 08:56:19,974 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/urls.py changed, reloading.
+INFO 2024-08-14 08:56:21,652 Watching for file changes with StatReloader
+INFO 2024-08-14 08:57:13,493 "GET /staff/salary-detail/4/ HTTP/1.1" 200 10527
+ERROR 2024-08-14 08:58:11,018 Internal Server Error: /staff/salary-detail/4/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salaries-update' not found. 'salaries-update' is not a valid view function or pattern name.
+ERROR 2024-08-14 08:58:11,022 "GET /staff/salary-detail/4/ HTTP/1.1" 500 178728
+INFO 2024-08-14 08:58:28,462 "GET /staff/salary-detail/4/ HTTP/1.1" 200 10600
+INFO 2024-08-14 08:58:31,067 "GET /staff/salary-update/4/ HTTP/1.1" 200 11150
+INFO 2024-08-14 08:58:38,125 "POST /staff/salary-update/4/ HTTP/1.1" 302 0
+INFO 2024-08-14 08:58:38,148 "GET /staff/salaries/ HTTP/1.1" 200 10937
+INFO 2024-08-14 08:58:44,738 "GET /staff/salary-detail/4/ HTTP/1.1" 200 10601
+INFO 2024-08-14 08:59:00,392 "GET /staff/salaries/ HTTP/1.1" 200 10937
+INFO 2024-08-14 08:59:10,396 "GET /staff/salary-add/ HTTP/1.1" 200 11121
+INFO 2024-08-14 08:59:14,130 "GET /staff/salaries/ HTTP/1.1" 200 10937
+INFO 2024-08-14 09:07:08,506 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 7568
+INFO 2024-08-14 09:07:08,745 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 09:07:17,212 "POST /admin/staffs/monthlysalary/ HTTP/1.1" 200 6434
+INFO 2024-08-14 09:07:18,490 "POST /admin/staffs/monthlysalary/ HTTP/1.1" 302 0
+INFO 2024-08-14 09:07:18,610 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6290
+INFO 2024-08-14 09:07:18,644 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 09:07:31,103 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:07:33,370 Watching for file changes with StatReloader
+INFO 2024-08-14 09:07:37,715 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:07:38,418 Watching for file changes with StatReloader
+INFO 2024-08-14 09:07:58,666 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:08:00,861 Watching for file changes with StatReloader
+INFO 2024-08-14 09:08:03,586 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:08:04,332 Watching for file changes with StatReloader
+INFO 2024-08-14 09:08:31,337 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:08:33,160 Watching for file changes with StatReloader
+INFO 2024-08-14 09:08:35,441 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:08:36,099 Watching for file changes with StatReloader
+INFO 2024-08-14 09:08:39,636 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:08:41,361 Watching for file changes with StatReloader
+INFO 2024-08-14 09:08:45,751 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:08:46,822 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:00,607 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:01,604 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:09,002 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:09,726 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:12,991 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:14,087 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:15,428 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:16,465 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:23,923 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:24,804 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:28,097 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:29,131 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:31,454 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:32,441 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:34,690 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:35,935 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:39,483 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:40,457 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:45,874 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:46,554 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:53,067 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:54,323 Watching for file changes with StatReloader
+INFO 2024-08-14 09:09:57,746 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:09:58,833 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:01,164 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:02,340 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:05,817 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:06,565 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:08,927 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:09,917 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:12,241 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:13,335 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:16,825 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:18,027 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:21,355 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:22,341 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:24,618 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:25,778 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:28,149 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:10:28,942 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:25,272 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:16:26,458 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:29,762 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:16:30,490 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:38,915 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:16:39,691 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:41,053 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:16:41,825 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:43,294 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:16:43,901 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:54,444 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:16:54,999 Watching for file changes with StatReloader
+INFO 2024-08-14 09:17:22,998 Watching for file changes with StatReloader
+INFO 2024-08-14 09:17:29,373 "GET /staff/salaries/ HTTP/1.1" 200 10252
+INFO 2024-08-14 09:17:31,411 "GET /staff/salary-add/ HTTP/1.1" 200 11605
+INFO 2024-08-14 09:18:15,176 "POST /staff/salary-add/ HTTP/1.1" 302 0
+INFO 2024-08-14 09:18:15,206 "GET /staff/salaries/ HTTP/1.1" 200 10597
+INFO 2024-08-14 09:19:07,505 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:19:08,048 Watching for file changes with StatReloader
+INFO 2024-08-14 09:19:12,418 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:19:13,042 Watching for file changes with StatReloader
+INFO 2024-08-14 09:19:14,922 "GET /staff/salaries/ HTTP/1.1" 200 10597
+INFO 2024-08-14 09:19:34,050 "GET /staff/salaries/ HTTP/1.1" 200 10597
+INFO 2024-08-14 09:19:48,466 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:19:57,927 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:22:22,474 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:27:10,527 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:27:13,673 "GET /staff/salary-detail/1/ HTTP/1.1" 200 10608
+INFO 2024-08-14 09:27:16,693 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:27:21,590 "GET /staff/salary-detail/1/ HTTP/1.1" 200 10608
+INFO 2024-08-14 09:27:23,207 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:27:24,984 "GET /staff/salary-detail/1/ HTTP/1.1" 200 10608
+INFO 2024-08-14 09:27:26,859 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:27:31,438 "GET /finance/list/ HTTP/1.1" 200 10214
+INFO 2024-08-14 09:27:33,525 "GET /finance/create/ HTTP/1.1" 200 13769
+INFO 2024-08-14 09:27:37,072 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:27:49,347 "GET /finance/list/ HTTP/1.1" 200 10214
+INFO 2024-08-14 09:27:50,792 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:34:54,806 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:34:57,353 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:37:26,082 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:37:27,749 Watching for file changes with StatReloader
+INFO 2024-08-14 09:39:44,536 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:39:46,367 Watching for file changes with StatReloader
+INFO 2024-08-14 09:40:32,980 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:40:33,803 Watching for file changes with StatReloader
+INFO 2024-08-14 09:40:36,148 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:40:36,888 Watching for file changes with StatReloader
+INFO 2024-08-14 09:40:51,875 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:40:52,570 Watching for file changes with StatReloader
+INFO 2024-08-14 09:40:59,476 "GET /current-session/ HTTP/1.1" 200 10847
+INFO 2024-08-14 09:41:05,660 "GET /staff/list/ HTTP/1.1" 200 10410
+INFO 2024-08-14 09:41:08,409 "GET /current-session/ HTTP/1.1" 200 10847
+INFO 2024-08-14 09:41:15,186 "POST /current-session/ HTTP/1.1" 200 10847
+INFO 2024-08-14 09:41:17,365 "GET /staff/salaries/ HTTP/1.1" 200 10602
+INFO 2024-08-14 09:43:25,696 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 7336
+INFO 2024-08-14 09:43:25,874 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 09:43:30,495 "POST /admin/staffs/monthlysalary/ HTTP/1.1" 200 6265
+INFO 2024-08-14 09:43:31,656 "POST /admin/staffs/monthlysalary/ HTTP/1.1" 302 0
+INFO 2024-08-14 09:43:31,715 "GET /admin/staffs/monthlysalary/ HTTP/1.1" 200 6289
+INFO 2024-08-14 09:43:31,853 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2024-08-14 09:43:53,438 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:43:54,963 Watching for file changes with StatReloader
+INFO 2024-08-14 09:44:09,734 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:44:10,778 Watching for file changes with StatReloader
+INFO 2024-08-14 09:44:14,085 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:44:15,032 Watching for file changes with StatReloader
+INFO 2024-08-14 09:44:58,312 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:44:58,986 Watching for file changes with StatReloader
+INFO 2024-08-14 09:45:00,258 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:45:00,961 Watching for file changes with StatReloader
+INFO 2024-08-14 09:45:04,594 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:45:05,130 Watching for file changes with StatReloader
+INFO 2024-08-14 09:45:20,878 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/models.py changed, reloading.
+INFO 2024-08-14 09:45:22,209 Watching for file changes with StatReloader
+INFO 2024-08-14 09:48:18,603 Watching for file changes with StatReloader
+INFO 2024-08-14 09:49:26,586 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:49:27,639 Watching for file changes with StatReloader
+INFO 2024-08-14 09:49:44,448 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:49:45,374 Watching for file changes with StatReloader
+INFO 2024-08-14 09:50:15,299 "GET /staff/salaries/ HTTP/1.1" 200 10252
+INFO 2024-08-14 09:50:17,498 "GET /staff/salary-add/ HTTP/1.1" 200 11902
+INFO 2024-08-14 09:53:06,155 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/forms.py changed, reloading.
+INFO 2024-08-14 09:53:07,398 Watching for file changes with StatReloader
+INFO 2024-08-14 09:53:09,999 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/forms.py changed, reloading.
+INFO 2024-08-14 09:53:10,689 Watching for file changes with StatReloader
+INFO 2024-08-14 09:53:13,174 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/forms.py changed, reloading.
+INFO 2024-08-14 09:53:13,725 Watching for file changes with StatReloader
+INFO 2024-08-14 09:53:38,980 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:53:39,655 Watching for file changes with StatReloader
+INFO 2024-08-14 09:53:43,107 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:53:43,771 Watching for file changes with StatReloader
+INFO 2024-08-14 09:54:19,656 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:54:20,476 Watching for file changes with StatReloader
+INFO 2024-08-14 09:54:24,855 "GET /staff/salaries/ HTTP/1.1" 200 10252
+ERROR 2024-08-14 09:54:26,875 Internal Server Error: /staff/salary-add/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 168, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 66, in get_context_data
+    kwargs['form'] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 32, in get_form
+    form_class = self.get_form_class()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 77, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Specifying both 'fields' and 'form_class' is not permitted.
+ERROR 2024-08-14 09:54:26,877 "GET /staff/salary-add/ HTTP/1.1" 500 91636
+INFO 2024-08-14 09:54:45,102 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 09:54:46,015 Watching for file changes with StatReloader
+ERROR 2024-08-14 09:54:46,803 Internal Server Error: /staff/salary-add/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 168, in get
+    return super().get(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 66, in get_context_data
+    kwargs['form'] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/views/generic/edit.py", line 33, in get_form
+    return form_class(**self.get_form_kwargs())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/forms.py", line 21, in __init__
+    self.fields['session'].initial = current_session
+    ~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'session'
+ERROR 2024-08-14 09:54:46,807 "GET /staff/salary-add/ HTTP/1.1" 500 91441
+INFO 2024-08-14 09:55:46,175 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/forms.py changed, reloading.
+INFO 2024-08-14 09:55:47,863 Watching for file changes with StatReloader
+INFO 2024-08-14 09:55:57,497 "GET /staff/salary-add/ HTTP/1.1" 200 11902
+INFO 2024-08-14 09:56:49,153 "POST /staff/salary-add/ HTTP/1.1" 302 0
+INFO 2024-08-14 09:56:49,190 "GET /staff/salaries/ HTTP/1.1" 200 10601
+INFO 2024-08-14 09:56:52,772 "GET /staff/salary-detail/1/ HTTP/1.1" 200 10610
+INFO 2024-08-14 09:57:02,384 "GET /staff/salaries/ HTTP/1.1" 200 10601
+INFO 2024-08-14 09:57:39,816 "GET /staff/list/ HTTP/1.1" 200 10410
+INFO 2024-08-14 09:57:41,416 "GET /staff/1/ HTTP/1.1" 200 10982
+INFO 2024-08-14 09:58:26,108 "GET /staff/salaries/ HTTP/1.1" 200 10601
+INFO 2024-08-14 09:58:30,093 "GET /staff/list/ HTTP/1.1" 200 10410
+INFO 2024-08-14 10:01:16,803 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 10:01:17,419 Watching for file changes with StatReloader
+INFO 2024-08-14 10:01:19,813 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/staffs/views.py changed, reloading.
+INFO 2024-08-14 10:01:20,566 Watching for file changes with StatReloader
+INFO 2024-08-14 10:02:19,935 "GET /staff/1/ HTTP/1.1" 200 11498
+INFO 2024-08-14 10:05:42,448 "GET /staff/1/ HTTP/1.1" 200 11636
+INFO 2024-08-14 10:06:12,927 "GET /staff/1/ HTTP/1.1" 200 11636
+INFO 2024-08-14 10:06:14,995 "GET /staff/1/ HTTP/1.1" 200 11636
+ERROR 2024-08-14 10:06:20,444 Internal Server Error: /staff/1/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '='
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '=' from '='
+ERROR 2024-08-14 10:06:20,447 "GET /staff/1/ HTTP/1.1" 500 212378
+ERROR 2024-08-14 10:06:29,758 Internal Server Error: /staff/1/
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '='
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lukyamuzinicholas/.local/lib/python3.11/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '=' from '='
+ERROR 2024-08-14 10:06:29,760 "GET /staff/1/ HTTP/1.1" 500 212462
+INFO 2024-08-14 10:06:35,296 "GET /staff/1/ HTTP/1.1" 200 11636
+INFO 2024-08-14 10:06:57,739 "GET /staff/1/ HTTP/1.1" 200 11647
+INFO 2024-08-14 10:07:05,379 "GET /staff/salaries/ HTTP/1.1" 200 10601
+INFO 2024-08-14 10:07:15,049 "GET /staff/salary-add/ HTTP/1.1" 200 11902
+INFO 2024-08-14 10:07:38,634 "POST /staff/salary-add/ HTTP/1.1" 302 0
+INFO 2024-08-14 10:07:38,659 "GET /staff/salaries/ HTTP/1.1" 200 10946
+INFO 2024-08-14 10:07:41,929 "GET /staff/list/ HTTP/1.1" 200 10410
+INFO 2024-08-14 10:07:43,468 "GET /staff/2/ HTTP/1.1" 200 11623
+INFO 2024-08-14 10:08:07,382 "GET /staff/2/ HTTP/1.1" 200 11623
+INFO 2024-08-14 10:08:09,516 "GET /staff/2/ HTTP/1.1" 200 11623
+INFO 2024-08-14 10:08:19,437 "GET /staff/2/ HTTP/1.1" 200 11612
+INFO 2024-08-14 10:08:34,999 "GET /staff/2/ HTTP/1.1" 200 11619
+INFO 2024-08-14 10:09:41,205 "GET /staff/2/ HTTP/1.1" 200 11799
+INFO 2024-08-14 10:10:03,931 "GET /staff/2/ HTTP/1.1" 200 11799
+INFO 2024-08-14 10:10:48,545 "GET /staff/2/ HTTP/1.1" 200 11875
+INFO 2024-08-14 10:12:15,451 "GET /staff/salaries/ HTTP/1.1" 200 10946
+INFO 2024-08-14 10:12:17,849 "GET /staff/salary-detail/2/ HTTP/1.1" 200 10591

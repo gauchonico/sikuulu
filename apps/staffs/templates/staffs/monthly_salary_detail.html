@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block title %}Employee Salary Details{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <h2>Salary Details for <strong>{{ salary.staff }}</strong></h2>
+    <table class="table table-bordered">
+        <tbody>
+            <tr>
+                <th>Staff</th>
+                <td>{{ salary.staff }}</td>
+            </tr>
+            <tr>
+                <th>Year and Month</th>
+                <td>0{{ salary.month }}/{{ salary.year }}</td>
+            </tr>
+            <tr>
+                <th>Base Salary</th>
+                <td>{{ salary.base_salary | intcomma }}</td>
+            </tr>
+            <tr>
+                <th>Amount Paid</th>
+                <td>{{ salary.amount_paid | intcomma }}</td>
+            </tr>
+            <tr>
+                <th>Deductions</th>
+                <td>{{ salary.deductions | intcomma }}</td>
+            </tr>
+            <tr>
+                <th>Balance Due</th>
+                <td>{{ salary.balance_due | intcomma }}</td>
+            </tr>
+            <tr>
+                <th>Comments</th>
+                <td>{{ salary.comments }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="{% url 'salaries-list' %}" class="btn btn-secondary">Back to List</a>
+    <a href="{% url 'salary-update' salary.id %}" class="btn btn-secondary">Edit</a>
+</div>
+{% endblock %}

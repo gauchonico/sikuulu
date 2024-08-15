@@ -1,0 +1,205 @@
+INFO 2024-05-01 08:25:06,933 Watching for file changes with StatReloader
+INFO 2024-05-01 08:25:08,920 "GET / HTTP/1.1" 302 0
+INFO 2024-05-01 08:25:08,990 "GET /accounts/login/?next=/ HTTP/1.1" 200 3989
+INFO 2024-05-01 08:25:09,314 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-05-01 08:25:09,316 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-05-01 08:25:09,318 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-05-01 08:25:09,330 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+INFO 2024-05-01 08:25:09,331 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-05-01 08:25:09,356 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-05-01 08:25:09,376 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-05-01 08:25:09,381 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-05-01 08:25:09,386 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-05-01 08:25:09,386 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-05-01 08:25:09,387 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-05-01 08:25:09,393 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-05-01 08:25:09,443 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-05-01 08:25:09,848 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-05-01 08:25:10,601 Not Found: /favicon.ico
+WARNING 2024-05-01 08:25:10,602 "GET /favicon.ico HTTP/1.1" 404 6202
+INFO 2024-05-01 08:25:15,021 "POST /accounts/login/ HTTP/1.1" 200 4114
+INFO 2024-05-01 08:29:42,740 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-05-01 08:29:42,768 "GET / HTTP/1.1" 200 9298
+INFO 2024-05-01 08:29:42,968 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-05-01 08:29:43,118 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-05-01 08:29:43,126 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-05-01 08:29:50,753 "GET /student/list HTTP/1.1" 200 11077
+INFO 2024-05-01 08:29:58,090 "GET /staff/list/ HTTP/1.1" 200 9908
+INFO 2024-05-01 08:30:01,534 "GET /staff/create/ HTTP/1.1" 200 12606
+INFO 2024-05-01 08:30:48,502 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-05-01 08:30:48,542 "GET /staff/2/ HTTP/1.1" 200 10839
+INFO 2024-05-01 08:30:52,418 "GET /staff/list/ HTTP/1.1" 200 10122
+INFO 2024-05-01 08:30:55,151 "GET /student/list HTTP/1.1" 200 11077
+INFO 2024-05-01 08:30:57,745 "GET /student/create/ HTTP/1.1" 200 13614
+INFO 2024-05-01 08:31:01,248 "GET /staff/list/ HTTP/1.1" 200 10122
+INFO 2024-05-01 08:31:03,392 "GET /student/list HTTP/1.1" 200 11077
+INFO 2024-05-01 08:31:04,785 "GET /student/4/ HTTP/1.1" 200 11654
+INFO 2024-05-01 08:31:05,032 "GET /media/students/passports/_iconcommunity.png HTTP/1.1" 200 21372
+INFO 2024-05-01 08:31:12,133 "GET /student/list HTTP/1.1" 200 11077
+INFO 2024-05-01 08:31:15,530 "GET /staff/list/ HTTP/1.1" 200 10122
+INFO 2024-05-01 08:31:17,368 "GET /finance/list/ HTTP/1.1" 200 10798
+INFO 2024-05-01 08:31:28,118 "GET /finance/create/ HTTP/1.1" 200 13702
+INFO 2024-05-01 08:31:48,941 "GET /session/list/ HTTP/1.1" 200 12635
+INFO 2024-05-01 08:31:56,212 "GET /subject/list/ HTTP/1.1" 200 11690
+INFO 2024-05-01 08:32:10,150 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-05-01 08:32:10,219 "GET /subject/list/ HTTP/1.1" 200 12127
+INFO 2024-05-01 08:32:13,592 "GET /class/list/ HTTP/1.1" 200 11412
+INFO 2024-05-01 08:32:22,664 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2024-05-01 08:32:22,740 "GET /class/list/ HTTP/1.1" 200 11831
+INFO 2024-05-01 08:32:29,260 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2024-05-01 08:32:29,326 "GET /class/list/ HTTP/1.1" 200 12107
+INFO 2024-05-01 08:32:33,965 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2024-05-01 08:32:34,042 "GET /class/list/ HTTP/1.1" 200 12383
+INFO 2024-05-01 08:32:36,487 "GET /site-config HTTP/1.1" 200 10873
+INFO 2024-05-01 08:32:49,900 "POST /site-config HTTP/1.1" 200 10895
+INFO 2024-05-01 08:32:51,916 "GET /site-config HTTP/1.1" 200 10873
+INFO 2024-05-01 08:33:08,109 "GET /student/list HTTP/1.1" 200 11077
+INFO 2024-05-01 08:33:12,988 "GET /result/view/all HTTP/1.1" 200 11058
+INFO 2024-05-01 08:33:42,951 "GET /staff/list/ HTTP/1.1" 200 10122
+INFO 2024-05-01 08:37:21,394 "GET /staff/list/ HTTP/1.1" 200 10122
+INFO 2024-05-01 08:37:23,415 "GET /student/list HTTP/1.1" 200 11077
+WARNING 2024-05-01 08:42:02,851 Not Found: /admin/
+WARNING 2024-05-01 08:42:02,851 "GET /admin/ HTTP/1.1" 404 6187
+WARNING 2024-05-01 08:42:04,414 Not Found: /admin/
+WARNING 2024-05-01 08:42:04,415 "GET /admin/ HTTP/1.1" 404 6187
+INFO 2024-05-01 08:42:17,012 "GET /staff/list/ HTTP/1.1" 200 10122
+INFO 2024-05-01 08:42:18,425 "GET /student/list HTTP/1.1" 200 11077
+INFO 2024-05-01 08:42:21,150 "GET /site-config HTTP/1.1" 200 10873
+INFO 2024-05-01 08:42:44,470 "POST /site-config HTTP/1.1" 200 10884
+INFO 2024-05-01 08:42:52,108 "GET /site-config HTTP/1.1" 200 10873
+INFO 2024-05-01 08:48:47,253 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:48:48,419 Watching for file changes with StatReloader
+INFO 2024-05-01 08:48:52,921 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:48:53,436 Watching for file changes with StatReloader
+INFO 2024-05-01 08:48:56,692 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:48:57,272 Watching for file changes with StatReloader
+INFO 2024-05-01 08:48:58,981 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:48:59,562 Watching for file changes with StatReloader
+INFO 2024-05-01 08:49:21,543 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:49:22,669 Watching for file changes with StatReloader
+INFO 2024-05-01 08:49:23,965 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:49:24,511 Watching for file changes with StatReloader
+INFO 2024-05-01 08:49:27,994 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:49:28,524 Watching for file changes with StatReloader
+INFO 2024-05-01 08:49:30,077 /Users/lukyamuzinicholas/Desktop/django/Django-School-Management-System/apps/corecode/views.py changed, reloading.
+INFO 2024-05-01 08:49:30,596 Watching for file changes with StatReloader
+INFO 2024-05-01 08:49:44,734 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+WARNING 2024-05-01 08:49:44,756 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:49:44,781 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2024-05-01 08:49:44,785 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2024-05-01 08:49:45,044 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2024-05-01 08:49:51,646 "POST /site-config HTTP/1.1" 200 11015
+WARNING 2024-05-01 08:49:52,367 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:54:31,561 "POST /site-config HTTP/1.1" 200 11368
+WARNING 2024-05-01 08:54:40,409 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:54:43,687 "POST /site-config HTTP/1.1" 200 11368
+WARNING 2024-05-01 08:54:44,368 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:54:54,370 "POST /site-config HTTP/1.1" 200 11368
+WARNING 2024-05-01 08:54:55,225 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:58:08,494 Watching for file changes with StatReloader
+INFO 2024-05-01 08:58:18,974 "POST /site-config HTTP/1.1" 200 11569
+WARNING 2024-05-01 08:58:20,134 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:58:24,703 "POST /site-config HTTP/1.1" 200 11569
+WARNING 2024-05-01 08:58:25,664 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:58:41,086 "POST /site-config HTTP/1.1" 200 11368
+WARNING 2024-05-01 08:58:41,723 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:58:44,194 "POST /site-config HTTP/1.1" 200 11368
+WARNING 2024-05-01 08:58:44,934 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:58:50,553 "GET /site-config HTTP/1.1" 200 10894
+WARNING 2024-05-01 08:58:51,091 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:59:12,425 "GET /site-config HTTP/1.1" 200 11134
+WARNING 2024-05-01 08:59:13,300 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:59:24,799 "POST /site-config HTTP/1.1" 200 11312
+WARNING 2024-05-01 08:59:25,401 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 08:59:31,247 "GET /site-config HTTP/1.1" 200 11149
+WARNING 2024-05-01 08:59:31,703 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 09:01:03,737 "POST /site-config HTTP/1.1" 200 11310
+WARNING 2024-05-01 09:01:04,328 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 09:01:07,670 "GET /site-config HTTP/1.1" 200 11147
+WARNING 2024-05-01 09:01:08,375 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-05-01 09:01:15,003 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-05-01 09:01:15,027 "GET / HTTP/1.1" 302 0
+INFO 2024-05-01 09:01:15,053 "GET /accounts/login/?next=/ HTTP/1.1" 200 3999
+INFO 2024-05-01 09:01:25,808 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-05-01 09:01:25,839 "GET / HTTP/1.1" 200 9308
+INFO 2024-05-01 09:01:35,346 "GET /current-session/ HTTP/1.1" 200 10656
+INFO 2024-05-01 09:01:56,008 "GET /student/list HTTP/1.1" 200 11087
+INFO 2024-05-01 09:04:42,619 "GET /student/list HTTP/1.1" 200 11120
+INFO 2024-05-01 09:05:28,264 "GET /finance/list/ HTTP/1.1" 200 10808
+INFO 2024-05-01 09:06:35,763 "GET /finance/list/ HTTP/1.1" 200 10801
+INFO 2024-05-01 09:06:48,475 "GET /finance/list/ HTTP/1.1" 200 10801
+INFO 2024-05-01 09:08:15,647 "GET /finance/list/ HTTP/1.1" 200 10807
+INFO 2024-05-01 09:19:16,032 "GET /result/edit-results/ HTTP/1.1" 200 12096
+INFO 2024-05-01 15:16:14,747 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-05-01 15:16:14,807 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-05-03 14:49:52,074 Watching for file changes with StatReloader
+INFO 2024-05-03 14:50:09,259 "GET / HTTP/1.1" 302 0
+INFO 2024-05-03 14:50:09,622 "GET /accounts/login/?next=/ HTTP/1.1" 200 3999
+WARNING 2024-05-03 14:50:10,046 Not Found: /admin/production/storealerts/
+WARNING 2024-05-03 14:50:10,048 "GET /admin/production/storealerts/ HTTP/1.1" 404 6256
+INFO 2024-05-03 14:50:10,074 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-05-03 14:50:10,084 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-05-03 14:50:10,085 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-05-03 14:50:10,213 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-05-03 14:50:10,237 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-05-03 14:50:10,266 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-05-03 14:50:10,329 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-05-03 14:50:10,397 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-05-03 14:50:10,413 "GET /static/dist/img/login.png HTTP/1.1" 200 445475
+INFO 2024-05-03 14:50:10,454 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-05-03 14:50:10,664 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-05-03 14:50:11,099 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-05-03 14:50:16,181 Not Found: /favicon.ico
+WARNING 2024-05-03 14:50:16,182 "GET /favicon.ico HTTP/1.1" 404 6202
+WARNING 2024-05-03 14:50:16,349 Not Found: /favicon.ico
+WARNING 2024-05-03 14:50:16,351 "GET /favicon.ico HTTP/1.1" 404 6202
+INFO 2024-05-03 14:50:34,638 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:50:34,834 "GET / HTTP/1.1" 200 9329
+INFO 2024-05-03 14:50:35,043 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-05-03 14:50:35,246 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-05-03 14:50:36,004 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-05-03 14:50:43,735 "GET /student/list HTTP/1.1" 200 11108
+INFO 2024-05-03 14:50:52,886 "GET /site-config HTTP/1.1" 200 11168
+INFO 2024-05-03 14:51:00,034 "GET /session/list/ HTTP/1.1" 200 12666
+INFO 2024-05-03 14:51:07,422 "GET /term/list/ HTTP/1.1" 200 12270
+INFO 2024-05-03 14:51:19,817 "GET /subject/list/ HTTP/1.1" 200 12013
+INFO 2024-05-03 14:51:25,347 "GET /class/list/ HTTP/1.1" 200 12271
+INFO 2024-05-03 14:51:29,956 "GET /student/list HTTP/1.1" 200 11108
+INFO 2024-05-03 14:51:31,734 "GET /student/create/ HTTP/1.1" 200 13744
+INFO 2024-05-03 14:52:42,460 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:52:42,531 "GET /student/5/ HTTP/1.1" 200 11330
+INFO 2024-05-03 14:52:42,822 "GET /media/students/passports/Screenshot_2024-04-17_at_11.40.36_AM.png HTTP/1.1" 200 1387303
+INFO 2024-05-03 14:52:50,044 "GET /staff/list/ HTTP/1.1" 200 10153
+INFO 2024-05-03 14:52:57,497 "GET /finance/list/ HTTP/1.1" 200 10829
+INFO 2024-05-03 14:53:00,478 "GET /finance/create/ HTTP/1.1" 200 13880
+INFO 2024-05-03 14:56:05,698 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:56:05,722 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-05-03 14:56:05,783 "GET /finance/list/ HTTP/1.1" 200 11253
+INFO 2024-05-03 14:56:19,174 "GET /finance/receipt/create?invoice=5 HTTP/1.1" 200 10879
+INFO 2024-05-03 14:57:07,973 "GET /finance/list/ HTTP/1.1" 200 11253
+INFO 2024-05-03 14:57:14,297 "GET /finance/receipt/create?invoice=5 HTTP/1.1" 200 10879
+INFO 2024-05-03 14:57:28,774 "POST /finance/receipt/create?invoice=5 HTTP/1.1" 302 0
+INFO 2024-05-03 14:57:28,871 "GET /finance/list/ HTTP/1.1" 200 11257
+INFO 2024-05-03 14:57:40,324 "GET /finance/receipt/create?invoice=5 HTTP/1.1" 200 10883
+INFO 2024-05-03 14:57:52,797 "GET /result/create/ HTTP/1.1" 200 11287
+INFO 2024-05-03 14:57:56,416 "GET /result/create/ HTTP/1.1" 200 11287
+INFO 2024-05-03 14:58:00,420 "POST /result/create/ HTTP/1.1" 200 11377
+INFO 2024-05-03 14:58:19,642 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:58:19,783 "GET /result/edit-results/ HTTP/1.1" 200 12736
+INFO 2024-05-03 14:58:37,862 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:58:37,951 "GET /result/edit-results/ HTTP/1.1" 200 12882
+INFO 2024-05-03 14:58:46,318 "GET /result/create/ HTTP/1.1" 200 11287
+INFO 2024-05-03 14:58:50,038 "POST /result/create/ HTTP/1.1" 200 11377
+INFO 2024-05-03 14:59:32,788 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:59:33,072 "GET /result/edit-results/ HTTP/1.1" 200 13383
+INFO 2024-05-03 14:59:42,183 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2024-05-03 14:59:42,310 "GET /result/edit-results/ HTTP/1.1" 200 13529
+INFO 2024-05-03 14:59:44,019 "GET /result/view/all HTTP/1.1" 200 12306
+WARNING 2024-05-03 15:00:54,729 Not Found: /production/production-process/
+WARNING 2024-05-03 15:00:54,730 "GET /production/production-process/ HTTP/1.1" 404 6259
+WARNING 2024-05-03 15:00:56,994 Not Found: /production/store-requests/
+WARNING 2024-05-03 15:00:56,995 "GET /production/store-requests/ HTTP/1.1" 404 6247
+INFO 2024-05-03 15:02:40,257 "GET /site-config HTTP/1.1" 200 11168
+INFO 2024-05-03 15:02:46,853 "GET /student/list HTTP/1.1" 200 11385
+INFO 2024-05-03 15:02:53,896 "GET /student/upload/ HTTP/1.1" 200 10040
+INFO 2024-05-03 15:03:03,137 "GET /student/download-csv/ HTTP/1.1" 200 94

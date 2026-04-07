@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+{% block extra_css %}
+<style>
+    /* Custom styles for form inputs */
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 0.375rem 0.75rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .form-control:focus {
+        border-color: #86b7fe;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        outline: 0;
+    }
+
+    /* Style for select dropdowns */
+    select.form-control {
+        appearance: auto;
+        background-image: url("data:image/svg+xml,...");
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 16px 12px;
+    }
+
+    /* Add some spacing between form groups */
+    .mb-3 {
+        margin-bottom: 1rem !important;
+    }
+
+    /* Style for labels */
+    .form-label {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+</style>
+{% endblock extra_css %}
+{% block content %}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Vehicles</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addVehicleModal">
+            <i class="fas fa-plus"></i> Add Vehicle
+        </button>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>License Plate</th>
+                <th>Capacity</th>
+                <th>Driver</th>
+                <th>Route</th>
+                <th>Last Maintenance</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for vehicle in vehicles %}
+            <tr>
+                <td>{{ vehicle.license_plate }}</td>
+                <td>{{ vehicle.capacity }}</td>
+                <td>{{ vehicle.driver|default:"Not Assigned" }}</td>
+                <td>{{ vehicle.route|default:"Not Assigned" }}</td>
+                <td>{{ vehicle.last_maintenance_date }}</td>
+                <td>
+                    <a href="{% url 'transport:vehicle-edit' vehicle.pk %}" class="btn btn-sm btn-info">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <a href="{% url 'transport:vehicle-maintenance-list' vehicle.pk %}" class="btn btn-sm btn-warning">
+                        <i class="fas fa-tools"></i>
+                    </a>
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="6" class="text-center">No vehicles registered yet.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<!-- Add Vehicle Modal -->
+<div class="modal" id="addVehicleModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add New Vehicle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addVehicleForm" method="post" action="{% url 'transport:vehicle-add' %}">
+                    {% csrf_token %}
+                    {% for field in form %}
+                    <div class="mb-3">
+                        <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+                        {{ field }}
+                    </div>
+                    {% endfor %}
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" form="addVehicleForm" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Vehicle Modal -->
+<div class="modal fade" id="editVehicleModal" tabindex="-1" aria-labelledby="editVehicleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editVehicleModalLabel">Edit Vehicle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="editVehicleForm" method="post">
+                <div class="modal-body">
+                    {% csrf_token %}
+                    <div id="editFormContent"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Add Bootstrap classes to form fields
+    document.querySelectorAll('input, select, textarea').forEach(function(element) {
+        element.classList.add('form-control');
+    });
+
+    // Handle form submission with AJAX
+    const addVehicleForm = document.getElementById('addVehicleForm');
+    const editVehicleForm = document.getElementById('editVehicleForm');
+    const addModal = new bootstrap.Modal(document.getElementById('addVehicleModal'));
+    const editModal = new bootstrap.Modal(document.getElementById('editVehicleModal'));
+
+    addVehicleForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload();
+            } else {
+                const formContent = document.querySelector('#addVehicleModal .modal-body');
+                formContent.innerHTML = data.form_html;
+                // Re-add Bootstrap classes to new form fields
+                formContent.querySelectorAll('input, select, textarea').forEach(function(element) {
+                    element.classList.add('form-control');
+                });
+            }
+        });
+    });
+
+    // Handle edit button clicks
+    document.querySelectorAll('.edit-vehicle').forEach(button => {
+        button.addEventListener('click', function() {
+            const vehicleId = this.dataset.vehicleId;
+            fetch(`/transport/vehicle/${vehicleId}/edit/?ajax=1`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('editFormContent').innerHTML = data.form_html;
+                    editVehicleForm.action = `/transport/vehicle/${vehicleId}/edit/`;
+                    // Add Bootstrap classes to form fields
+                    document.querySelectorAll('#editFormContent input, #editFormContent select, #editFormContent textarea')
+                        .forEach(function(element) {
+                            element.classList.add('form-control');
+                        });
+                });
+        });
+    });
+
+    // Handle edit form submission
+    editVehicleForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload();
+            } else {
+                document.getElementById('editFormContent').innerHTML = data.form_html;
+                // Re-add Bootstrap classes to new form fields
+                document.querySelectorAll('#editFormContent input, #editFormContent select, #editFormContent textarea')
+                    .forEach(function(element) {
+                        element.classList.add('form-control');
+                    });
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

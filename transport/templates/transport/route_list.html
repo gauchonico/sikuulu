@@ -1,0 +1,227 @@
+{% extends 'base.html' %}
+
+{% block title %}All Routes and Studennts{% endblock title %}
+
+{% block breadcrumb %}
+<a class="btn btn-primary" href="{% url 'transport:eligible-students-list' %}"><i
+    class="fas fa-plus"></i> Eligible Students</a>
+
+{% endblock breadcrumb %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Routes</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addRouteModal">
+            <i class="fas fa-plus"></i> Add Route
+        </button>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Start Location</th>
+                <th>End Location</th>
+                <th>Stops</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for route in routes %}
+          <tr>
+              <td>{{ route.name }}</td>
+              <td>{{ route.start_point }}</td>
+              <td>{{ route.end_point }}</td>
+              <td>
+                  {% with stops=route.stops.split|join:", " %}
+                  {{ stops|truncatechars:50 }}
+                  {% if stops|length > 50 %}
+                  <button type="button" class="btn btn-sm btn-link" 
+                          data-bs-toggle="tooltip" 
+                          data-bs-placement="top" 
+                          title="{{ stops }}">
+                      Show all
+                  </button>
+                  {% endif %}
+                  {% endwith %}
+              </td>
+              <td>
+                  <a href="#" class="btn btn-sm btn-info edit-route" data-bs-toggle="modal" 
+                     data-bs-target="#editRouteModal" data-route-id="{{ route.pk }}">
+                      <i class="fas fa-edit"></i>
+                  </a>
+              </td>
+          </tr>
+          {% empty %}
+          <tr>
+              <td colspan="5" class="text-center">No routes registered yet.</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Add Route Modal -->
+<div class="modal" id="addRouteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add New Route</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addRouteForm" method="post" action="{% url 'transport:route-add' %}">
+                    {% csrf_token %}
+                    {% for field in form %}
+                    <div class="mb-3">
+                        <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+                        {{ field }}
+                        {% if field.errors %}
+                        <div class="invalid-feedback d-block">
+                            {{ field.errors }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" form="addRouteForm" class="btn btn-primary">Save Route</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Route Modal -->
+<div class="modal fade" id="editRouteModal" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Edit Route</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="editRouteForm" method="post">
+              <div class="modal-body">
+                  
+                  <div id="editFormContent">
+                      <!-- Form will be loaded here -->
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Save Changes</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+<script>
+  // Add this to your existing DOMContentLoaded event listener
+// Initialize tooltips
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+  });
+</script
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Add Bootstrap classes to form fields
+    document.querySelectorAll('input, select, textarea').forEach(function(element) {
+        element.classList.add('form-control');
+    });
+
+    const addRouteForm = document.getElementById('addRouteForm');
+    const editRouteForm = document.getElementById('editRouteForm');
+    const addModal = new bootstrap.Modal(document.getElementById('addRouteModal'));
+    const editModal = new bootstrap.Modal(document.getElementById('editRouteModal'));
+
+    // Handle add form submission
+    addRouteForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload();
+            } else {
+                const formContent = document.querySelector('#addRouteModal .modal-body');
+                formContent.innerHTML = data.form_html;
+                formContent.querySelectorAll('input, select, textarea').forEach(function(element) {
+                    element.classList.add('form-control');
+                });
+            }
+        });
+    });
+
+    // Update the edit button click handler in your route_list.html
+      editRouteForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                editModal.hide();
+                location.reload();
+            } else {
+                const editFormContent = document.getElementById('editFormContent');
+                editFormContent.innerHTML = data.form_html;
+                editFormContent.querySelectorAll('input, select, textarea').forEach(function(element) {
+                    element.classList.add('form-control');
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
+    // Handle edit form submission
+    editRouteForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload();
+            } else {
+                document.getElementById('editFormContent').innerHTML = data.form_html;
+                document.querySelectorAll('#editFormContent input, #editFormContent select, #editFormContent textarea')
+                    .forEach(function(element) {
+                        element.classList.add('form-control');
+                    });
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Create Driver{% endblock %}
+
+{% block content %}
+  <h2>Create New Driver</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+  </form>
+{% endblock %}

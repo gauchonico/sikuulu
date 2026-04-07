@@ -3,7 +3,10 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
-from apps.corecode.models import StudentClass
+from django.apps import apps
+  # Assuming you have this model
+
+from apps.corecode.models import AcademicTerm, StudentClass
 
 
 class Student(models.Model):
@@ -35,6 +38,44 @@ class Student(models.Model):
     address = models.TextField(blank=True)
     others = models.TextField(blank=True)
     passport = models.ImageField(blank=True, upload_to="students/passports/")
+    
+    
+    def is_eligible_for_transport(self):
+        # Get the models only when needed
+        Invoice = apps.get_model('finance', 'Invoice')
+        InvoiceItem = apps.get_model('finance', 'InvoiceItem')
+        """Check if student has paid for transport services in current term"""
+        
+        # Get current term's invoice
+        current_term = AcademicTerm.objects.filter(current=True).first()
+        if not current_term:
+            return False
+            
+        try:
+            current_invoice = Invoice.objects.get(
+                student=self,
+                term=current_term,
+                status='active'
+            )
+            
+            # Check if transport fee exists in invoice items
+            transport_item = InvoiceItem.objects.filter(
+                invoice=current_invoice,
+                description__icontains='transport'  # Case-insensitive search for 'transport'
+            ).first()
+            
+            if not transport_item:
+                return False
+                
+            # Check if the transport fee has been paid
+            total_paid = current_invoice.total_amount_paid()
+            total_payable = current_invoice.total_amount_payable()
+            
+            # Student is eligible if they've paid in full
+            return total_paid >= total_payable
+            
+        except Invoice.DoesNotExist:
+            return False
 
     class Meta:
         ordering = ["surname", "firstname", "other_name"]
@@ -44,6 +85,8 @@ class Student(models.Model):
 
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.pk})
+    
+    
 
 
 class StudentBulkUpload(models.Model):

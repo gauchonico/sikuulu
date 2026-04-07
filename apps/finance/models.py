@@ -45,6 +45,22 @@ class Invoice(models.Model):
         for receipt in receipts:
             amount += receipt.amount_paid
         return amount
+    
+    def has_paid_transport(self):
+        """Check if transport fee has been paid in full"""
+        transport_item = InvoiceItem.objects.filter(
+            invoice=self,
+            description__icontains='transport'
+        ).first()
+        
+        if not transport_item:
+            return False
+            
+        # If there's a transport fee, check if total payment covers it
+        total_paid = self.total_amount_paid()
+        total_payable = self.total_amount_payable()
+        
+        return total_paid >= total_payable
 
     def get_absolute_url(self):
         return reverse("invoice-detail", kwargs={"pk": self.pk})

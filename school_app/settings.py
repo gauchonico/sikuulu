@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     "apps.staffs",
     "apps.finance",
     "apps.result",
+    "transport",
+    # "django_ledger"
+   
+    
 ]
 
 MIDDLEWARE = [
@@ -73,6 +77,7 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
                 "apps.corecode.context_processors.site_defaults",
+                # 'django_ledger.context.django_ledger_context',
             ],
         },
     },

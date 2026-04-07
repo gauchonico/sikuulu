@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- Summary Cards Row -->
+    <div class="row mb-4">
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Vehicles</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                {{ total_vehicles }} ({{ active_vehicles }} active)
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-bus fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Students Assigned</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{ total_students_assigned }}</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-users fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Monthly Expenses</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                ₦{{ monthly_expenses.total_amount|floatformat:2 }}
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-money-bill fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Maintenance</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                {{ pending_maintenance.count }}
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-tools fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Pending Maintenance -->
+        <div class="col-xl-6 col-lg-6">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="m-0 font-weight-bold text-primary">Pending Maintenance</h6>
+                    <a href="#" class="btn btn-sm btn-primary">
+                        <i class="fas fa-wrench"></i> View All
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Vehicle</th>
+                                    <th>Due Date</th>
+                                    <th>Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for record in pending_maintenance %}
+                                <tr>
+                                    <td>{{ record.vehicle.license_plate }}</td>
+                                    <td>{{ record.next_service_date }}</td>
+                                    <td>{{ record.get_maintenance_type_display }}</td>
+                                </tr>
+                                {% empty %}
+                                <tr>
+                                    <td colspan="3">No pending maintenance</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Transport Assignments -->
+        <div class="col-xl-6 col-lg-6">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="m-0 font-weight-bold text-primary">Recent Assignments</h6>
+                    <a href="{% url 'transport:eligible-students-list' %}" class="btn btn-sm btn-primary">
+                        <i class="fas fa-plus"></i> New Assignment
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Student</th>
+                                    <th>Route</th>
+                                    <th>Pickup Point</th>
+                                    <th>Start Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for assignment in recent_assignments %}
+                                <tr>
+                                    <td>{{ assignment.student.surname }} {{ assignment.student.firstname }}</td>
+                                    <td>{{ assignment.route.name }}</td>
+                                    <td>{{ assignment.pickup_point }}</td>
+                                    <td>{{ assignment.start_date }}</td>
+                                </tr>
+                                {% empty %}
+                                <tr>
+                                    <td colspan="4">No recent assignments</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Route Statistics and Expenditures Row -->
+    <div class="row">
+        <!-- Route Statistics -->
+        <div class="col-xl-8 col-lg-7">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="m-0 font-weight-bold text-primary">Route Statistics</h6>
+                    <a href="{% url 'transport:route-list' %}" class="btn btn-sm btn-primary">
+                        <i class="fas fa-list"></i> View All Routes
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Route Name</th>
+                                    <th>Vehicles Assigned</th>
+                                    <th>Students</th>
+                                    <th>Start Point</th>
+                                    <th>End Point</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for route in routes %}
+                                <tr>
+                                    <td>{{ route.name }}</td>
+                                    <td>{{ route.vehicle_count }}</td>
+                                    <td>{{ route.student_count }}</td>
+                                    <td>{{ route.start_point }}</td>
+                                    <td>{{ route.end_point }}</td>
+                                </tr>
+                                {% empty %}
+                                <tr>
+                                    <td colspan="5">No routes defined</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monthly Expenses Breakdown -->
+        <div class="col-xl-4 col-lg-5">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Expenses Breakdown</h6>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <div class="small font-weight-bold">Fuel Expenses <span class="float-right">₦{{ monthly_expenses.fuel_costs|floatformat:2 }}</span></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="small font-weight-bold">Maintenance Costs <span class="float-right">₦{{ monthly_expenses.maintenance_costs|floatformat:2 }}</span></div>
+                    </div>
+                    <hr>
+                    <div class="small font-weight-bold">Total Monthly Expenses <span class="float-right">₦{{ monthly_expenses.total_amount|floatformat:2 }}</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
